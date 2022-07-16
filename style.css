@@ -1,0 +1,43 @@
+@import url('https://fonts.googleapis.com/css2?family=Kdam+Thmor+Pro&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Courier New', Courier, monospace;
+
+}
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background: linear-gradient( blueviolet, #ff4949 ) 
+}
+
+#Relogio{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    height: 200px;
+    width: 570px;
+    background: transparent;
+    border-radius: 3px;
+    box-shadow: 0px 8px 10px rgba(0,0,0,1) ;
+}
+
+#Relogio div{
+    color: #ff4949;
+    height: 170px;
+    width: 150px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding: 55px;
+    align-items: center;
+    justify-content: center;
+    background: rgba(0,0,0,6);
+    border-radius: 10px;
+    box-shadow: 5px 3px 15px rgba(0,0,0,6);
+}
+
